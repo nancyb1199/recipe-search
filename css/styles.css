@@ -1,0 +1,29 @@
+
+#searchText {
+  font-size: 28px;
+  color: blue;
+}
+
+#searchBox {
+  width: 30em;
+  height: 2em;
+  font-size: 20px;
+}
+
+#myButton {
+  width: 10em;
+  height: 5em;
+  background-color: gray;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.box {
+  padding: 5px;
+  margin: 5px;
+  width: 200px;
+}
