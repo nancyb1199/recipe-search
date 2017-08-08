@@ -41,7 +41,7 @@ function pullRecipes (newString) {
       newBox = document.getElementById('container');
       let newItem = `
       <div id=box${i} class="box">
-      <h2><a href="${newArray[i].href}"> ${newArray[i].title}</a></h2>
+      <h3><a href="${newArray[i].href}"> ${newArray[i].title}</a></h3>
       <img src="${newArray[i].thumbnail}">
       </div>
       `

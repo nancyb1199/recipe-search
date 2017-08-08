@@ -1,28 +1,40 @@
 
+body {
+  background-color: #EADDFF;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: purple;
+}
+
 #searchText {
-  font-size: 28px;
-  color: blue;
+  font-size: 24px;
+  color: purple;
 }
 
 #searchBox {
-  width: 30em;
+  width: 20em;
   height: 2em;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 #myButton {
-  width: 10em;
-  height: 5em;
+  width: 9em;
+  height: 4em;
   background-color: gray;
 }
 
 #container {
+  padding: 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .box {
+  background-color: white;
   padding: 5px;
   margin: 5px;
   width: 200px;
