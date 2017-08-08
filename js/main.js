@@ -6,10 +6,7 @@ mybutton.addEventListener("click", myCallBack);
 
 
 function myCallBack(){
-  console.log("in myCallBack");
-
   let searchString = document.getElementById('searchBox').value;
-  console.log(searchString);
   pullRecipes(searchString);
 }
 
@@ -17,7 +14,6 @@ function myCallBack(){
 function pullRecipes (newString) {
   console.log(newString);
   let url="http://recipepuppyproxy.herokuapp.com/api/?i=" + newString;
-  console.log(url);
   let newArray=[];
 
   fetch(url)
@@ -28,7 +24,6 @@ function pullRecipes (newString) {
       }
     response.json().then(function(data) {
       newArray=data.results;
-      console.log(newArray);
       makeDisplay(newArray);
     });
   })
